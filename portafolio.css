@@ -2,7 +2,7 @@
 
 .navbar {
     padding: 2rem;
-    background-color: #f5f6f7;
+    background-color: #000000;
   }
   
   .navbar-collapse {
@@ -52,7 +52,7 @@
   .btn-info {
     font-size: 1.1rem;
     margin: 20px;
-    background-color: rgb(17, 46, 126);
+    background-color: rgb(46, 52, 68);
   }
   
   .texto-negro {
@@ -116,7 +116,7 @@
   
   .experiencia .columna:hover {
     color: white;
-    background-color: #0989b1;
+    background-color: #23227c;
   }
   
   .experiencia i {
