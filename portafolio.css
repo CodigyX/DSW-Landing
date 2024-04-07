@@ -3,6 +3,7 @@
 .navbar {
     padding: 2rem;
     background-color: #000000;
+    
   }
   
   .navbar-collapse {
@@ -10,6 +11,10 @@
     justify-content: space-between;  
   }
   
+  .sobre-mi{
+    color:#f5f6f7;
+  }
+
   /* Estilos generales */
   
   section {
@@ -282,7 +287,7 @@
   
   .contacto .rectangulo {
     margin-top: -5rem;
-    background-color: rgb(16, 183, 212);
+    background-color: rgb(28, 10, 107);
     border-radius: 10px;
     box-shadow: 0px 1px 4px 1px white;
   }
