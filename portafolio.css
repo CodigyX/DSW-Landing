@@ -3,7 +3,7 @@
 .navbar {
     padding: 2rem;
     background-color: #000000;
-    
+    color:#f5f6f7;
   }
   
   .navbar-collapse {
@@ -11,10 +11,6 @@
     justify-content: space-between;  
   }
   
-  .sobre-mi{
-    color:#f5f6f7;
-  }
-
   /* Estilos generales */
   
   section {
