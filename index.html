@@ -23,6 +23,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   </head>
   <body>
+    
     <!-- Barra de navegacion -->
     <nav class="navbar navbar-expand-md navbar-light">
       <div class="container-fluid">
@@ -35,10 +36,16 @@
           </a>
           <ul class="navbar-nav d-flex justify-content-center align-items-center">
             <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#introduccion">Introduccion</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#sobre-mi">Sobre mí</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#email">Email</a>
             </li>
             <!--li class="nav-item">
               <a class="nav-link" href="#certificaciones">Certificaciones</a>
@@ -57,7 +64,7 @@
     <!-- Seccion Hero -->
     <section class="hero align-items-stretch">
       <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
-        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/perfil.jpeg" alt="Foto de CodigyX">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/perfil.jpg" alt="Foto de CodigyX">
         <h1>Hola, soy Erick Barrena (CodigyX)</h1>
 
         <!--Animación con JavaScript-->
@@ -67,6 +74,16 @@
         <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
       </div>
     </section>
+    <!-- Nueva Sección: Introducción -->
+  <section id="introduccion" class="introduccion seccion-oscura">
+    <div class="container text-center">
+      <h2 class="seccion-titulo">Introducción</h2>
+      <p class="seccion-descripcion"></p>
+      <div class="video-contenedor">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/USUyuOgUcXE?start=355" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
 
     <!-- Sobre mi -->
     <section id="sobre-mi" class="sobre-mi seccion-oscura">
@@ -313,6 +330,27 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+     <!-- Nueva Sección: Email -->
+    <section id="email" class="email seccion-clara">
+      <div class="container text-center">
+        <h2 class="seccion-titulo">Contáctame</h2>
+        <p class="seccion-descripcion">Déjame tus datos para que pueda ponerme en contacto contigo.</p>
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-info mt-3">Enviar</button>
+          </div>
+        </form>
       </div>
     </section>
     
